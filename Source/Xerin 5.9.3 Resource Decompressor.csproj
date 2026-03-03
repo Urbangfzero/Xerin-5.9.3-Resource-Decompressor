@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Xerin 5.9.3 Resource Decompressor</AssemblyName>
+    <RootNamespace>Xerin 5.9.3 Resource Decompressor</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.15" />
+    <PackageReference Include="dnlib" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
